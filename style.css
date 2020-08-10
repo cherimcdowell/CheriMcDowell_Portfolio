@@ -1,14 +1,14 @@
 body {
-  background-color: #ffffff;
-  font-family: 'Raleway', sans-serif;
+background-color: white;
+font-family: 'Avenir', sans-serif;
 }
 nav {
-  background-color: white;
+  background-color: #ffffff;
   position: fixed;
   top: 0;
   left: 0;
   height: 50px;
-  width: 100vw; 
+  width: 100vw;
   z-index: 1;
 }
 nav ul li {
@@ -18,74 +18,88 @@ nav ul li {
   text-align: center;
 }
 #brand {
-  float: left;
+float: left
 }
-.nav-link {
-  color: #d96016;
+.nav-link{
+  color: #FC41CC;
   text-decoration: none;
-  font-family: 'Acme', sans-serif;
+  font-family: 'Avenir Bold', sans-serif;
 }
 .nav-link:hover {
-  color: #d96016;
-  font-weight: bold;
+  color: black;
+  font-weight: thin;
 }
-#brand .nav-link{
-  color: #98d2d4;
-  font-size: 14pt;
+#brand .nav-link {
+color: #FC41CC;
+font-size: 14pt;
 }
 #brand .nav-link:hover {
-  color: #263a3b;
+  color: black;
+  font-weight: bold;
 }
-h1 {
-  color: #ffffff;
-  font-size: 60pt;
-  font-family: 'Acme', sans-serif;
+h1{
+  font-size: 80pt;
+  color: #FC41CC;
+  font-family: 'Avenir', sans-serif;
 }
+h3{
+  font-size: 20pt;
+  color:#ffffff;
+  font-family: 'Avenir', sans-serif;}
 #home {
-  margin-top; 50px;
+  margin-top: 50px;
   position: relative;
   left: -8px;
   width: 100vw;
-  height: 30vh;
+  height: 100vh;
   padding-top: 3em;
-  background: url('./assets/plantbackground.jpg') center 75% no-repeat fixed;
+  background: url(assets/pexels-miguel-á-padriñán-1111314.jpg) center 75% no-repeat fixed;
   background-size: cover;
+
 }
 .header-tag {
-  text-align: center;
+  text-align: right;
   color: #ffffff;
-  text-shadow: 1px 1px 1px black;
-  }
+}
 h3.header-tag {
-  margin-top: -30px;
+  margin-top: -40px;
   font-size: 18pt;
+  margin-left: 45vw;
+  font-weight: lighter;
 }
-h2 {
-  font-family: 'Acme', sans-serif;
+h2{
+  font-family: 'Avenir' sans-serif;
   color: black;
+  margin-left: 50px;
 }
-.main {
-  text-align: center;
-}
-  #about {
-    margin-top: 50px;
-    display: inline-block;
-  }
-#about-picture {
-  width: 30vw;
-  float: left;
-}
-#profile-pic {
-  height: 200px;
-  width: 200px;
-  object-fit: cover;
-  border-radius: 4em;
-  box-shadow: 1px 1px 1px gray;
-}
-#about-content {
-  width: 40vw;
+.main{
+  margin-top: 50px;
   float: right;
 }
-#video {
-  margin-top: 50px;
+#about {
+  margin-top: 25px;
+  margin-left: 50px;
+  display: inline-block;
 }
+#about-picture {
+  width: 30vw;
+  float: right;
+}
+#profile-pic {
+  height: 350px;
+  width: 350px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 8px solid white;
+}
+#about-content {
+  margin-right: 50px;
+}
+p{
+  margin-left: 50px;
+  margin-right: 60vw;
+}
+#portfolio-works {
+  width: 60vw;
+  margin-left: 50px;
+  }
